@@ -4,8 +4,6 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem 'sinatra', '1.4.3'
-gem 'sinatra', require: 'sinatra/base'
-gem 'sinatra-reloader', require: false
 gem 'rake', '10.4.2'
 gem 'thin', '1.6.4'
 gem 'shotgun', '0.9'
