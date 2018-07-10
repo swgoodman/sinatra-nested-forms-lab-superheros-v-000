@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
     end
 
-    post '/' do
+    post '/teams' do
       
     end
 
