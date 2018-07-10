@@ -1,3 +1,17 @@
 <h1>Team Name!</h1>
 
-<h4><%= %></h4>
+  <h4><%= %></h4>
+
+<h1>Team motto!</h1>
+
+  <h4><%= %></h4>
+
+<h1>Team members!</h1>
+
+  <% @superheroes.each do |hero| %>
+
+    <h3><%= %></h3>
+    <h4><%= %></h4>
+    <h4><%= %></h4>
+
+    <% end %>
